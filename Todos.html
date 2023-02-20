@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Todos.css">
+    <title>TODOS</title>
+</head>
+<body> <div class="container">
+    <div class="input">
+        <h1>TODO</h1>
+        <form id="task-form">
+          <div class="head">
+            <input type="checkbox" name="" id="marker">
+            <input type="text" name="" id="taskinput">
+            <button type="submit" id="add">Add</button>
+          </div>
+        </form>
+    </div>
+
+    <div class="tasklist-container">
+        <div id="tasklist"> </div>
+        <nav>
+            <button id="all">ALL</button>
+            <button id="completed">Completed</button>
+            <button id="active">Active</button>
+            <button id="clear" >Clear Completed</button>
+        </nav>
+    </div>
+
+    <div class="footer"> 
+        <p>Drag and Drop to re-order List.</p>
+    </div>
+</div>
+
+    
+    
+</body>
+<script src="main.js"></script>
+</html>
